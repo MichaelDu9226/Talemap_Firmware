@@ -1,0 +1,9 @@
+esp_toml_version = 1.0
+firmware_images_url = "https://MichaelDu9226.github.io/Nous_Bootloader/bin/"
+
+supported_apps = ["Talemap"]
+
+[Nous_Bootloader]
+chipsets = ["ESP32"]
+offset = "0x10000"
+image.esp32 = "talemap_0x10000.bin"
